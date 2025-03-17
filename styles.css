@@ -212,7 +212,7 @@ nav ul li a:hover {
 @media (max-width: 1024px) {
     #inicio .overlay {
         flex-direction: column-reverse; /* Conteúdo primeiro, imagem depois */
-        padding: 20px;
+        padding: 100px 20px 20px; /* Aumenta espaço no topo para evitar sobreposição com o header */
         text-align: center;
     }
 
@@ -223,7 +223,6 @@ nav ul li a:hover {
 
     .conteudo-inicio {
         width: 90%;
-        margin-top: 5%;
     }
 
     .botao-orcamento {
@@ -234,6 +233,10 @@ nav ul li a:hover {
 }
 
 @media (max-width: 768px) {
+    #inicio .overlay {
+        padding: 120px 20px 20px; /* Aumenta ainda mais o espaço no topo */
+    }
+
     .imagem-container {
         width: 100%;
     }
