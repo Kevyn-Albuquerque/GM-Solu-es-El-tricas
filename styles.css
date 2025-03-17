@@ -211,7 +211,7 @@ nav ul li a:hover {
 /* Responsividade */
 @media (max-width: 1024px) {
     #inicio .overlay {
-        flex-direction: column;
+        flex-direction: column-reverse; /* Conteúdo primeiro, imagem depois */
         padding: 20px;
         text-align: center;
     }
