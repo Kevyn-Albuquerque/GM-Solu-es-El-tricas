@@ -91,7 +91,7 @@ nav ul li a:hover {
     border-radius: 2px;
 }
 
-/* Responsividade */
+/*  HEADER Responsividade */
 @media (max-width: 900px) {
     nav {
         display: none;
@@ -332,6 +332,7 @@ section {
     margin: 0 auto;
 }
 
+/* Estilização da galeria */
 .galeria-imagens {
     display: flex;
     justify-content: center;
@@ -340,8 +341,15 @@ section {
     margin-top: 20px;
 }
 
-.galeria-imagens img {
+/* Estilização dos blocos de imagem */
+.imagem-item {
+    text-align: center;
     width: 250px;
+}
+
+/* Estilização das imagens */
+.imagem-item img {
+    width: 100%;
     height: 180px;
     object-fit: cover;
     border-radius: 8px;
@@ -349,8 +357,17 @@ section {
     transition: transform 0.3s;
 }
 
-.galeria-imagens img:hover {
+/* Animação ao passar o mouse */
+.imagem-item img:hover {
     transform: scale(1.05);
+}
+
+/* Estilização do texto abaixo da imagem */
+.imagem-item p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #333;
+    font-weight: bold;
 }
 
 
